@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    background-color: #fefefe;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+/*==================
+    Header
+====================*/
+
+header{
+    background-color: #eb5346;
+}
+header div{
+    width: 1260px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #eb5346;
+}
+header div img{
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+header div span{
+    color: white;
+    cursor: default;
+}
+/*==================
+    Main
+====================*/
+main{
+    width: 1260px;
+    margin: 0 auto;
+}
+/*==================
+    Main
+    select-car-mark
+====================*/
+.select-car-mark{
+    margin-left: 142px;
+}
+.select-car-mark div:first-child{
+    margin-left: 0;
+}
+.select-car-mark div{
+    margin-left: 148px;
+    margin-top: 12px;
+    display: inline-block;
+}
+.select-car-mark span{
+    margin: 6px auto;
+    padding: 2px 0;
+    display: block;
+    text-align: center;
+}
+.select-car-mark img{
+    width: 198px;
+}
+.decoration-moduleTop{
+    background-color: #252d38;
+    color: white;
+    width: 128px;
+    margin-bottom: 0 !important;
+    cursor: pointer;
+}
+.decoration-moduleBottom{
+    background-color: #eb5346;
+    color: white;
+    width: 198px;
+    cursor: pointer;
+}
+/*==================
+    Main
+    view-car-and-elements
+====================*/
+.view-car-and-elements{
+    margin-left: 142px;
+    display: inline-block;
+}
+.view-car-and-elements img{
+    width: 520px;
+}
+/*==================
+    DIV
+    sale and call
+====================*/
+.sale-and-call{
+    margin-top: 36px;
+}
+.sale-and-call span{
+    cursor: default;
+}
+.sale-and-call div{
+    display: inline-block;
+}
+.sale-and-call input{
+    width: 168px;
+    margin-left: 32px;
+    font-size: 1.2em;
+    padding: 4px 0;
+    color: white;
+    background-color: #252d38;
+    border: none;
+    cursor: pointer;
+}
+.price{
+    margin-bottom: 3px;
+    font-size: 1.2em;
+    width: 218px;
+    display: block;
+    color: #eb5346;
+    border-bottom: 1px solid #252d38;
+}
+.price-number{
+    margin-left: 26px;
+    color: #eb5346;
+    font-size: 1.1em;
+}
+/*==================
+    Aside
+    Choice elements
+====================*/
+aside{
+    margin-left: 178px;
+    margin-top: 56px;
+    border-left: 1px solid  #252d38;
+    display: inline-block;
+    vertical-align: top;
+}
+aside li{
+    padding-left: 10px;
+    margin-bottom: 3px;
+}
+.block li:hover{
+    background: #eb5346;
+    position: relative;
+    color: #fff;
+}
+.block li:hover::after {
+    content: '';
+    position: absolute;
+    left: -28px;
+    bottom: 0;
+    border: 9px solid transparent;
+    border-right: 20px solid #eb5346;
+}
+.add-elements{
+    width: 148px;
+    display: inline-block;
+    padding-left: 22px;
+    cursor: pointer;
+    background: #252d38;
+    position: relative;
+    color: #fff;
+}
+.block .add-elements::after {
+    content: '';
+    position: absolute;
+    left: -28px;
+    bottom: 0;
+    border: 9px solid transparent;
+    border-right: 20px solid #252d38;
+}
+.menu-elements{
+    margin-top: 3px;
+    display: none;
+}
+.menu-elements li{
+    padding-left: 22px;
+}
+
